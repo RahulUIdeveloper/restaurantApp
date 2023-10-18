@@ -1,0 +1,105 @@
+{
+  "restaurants": [
+    {
+      "name": "manu2 sweets corner3",
+      "address": "kasganj",
+      "email": "manu2@test.com",
+      "id": 4
+    },
+    {
+      "name": "Rahul restaurant",
+      "address": "Delhi",
+      "mobile": 9971464411,
+      "email": "rahul@test.com",
+      "id": 5
+    },
+    {
+      "name": "Dinesh Sweets",
+      "address": "Etah",
+      "mobile": 9971464410,
+      "email": "dinesh@test.com",
+      "id": 6
+    },
+    {
+      "name": "Vicky Restaurant",
+      "address": "Etah",
+      "mobile": 9971464417,
+      "email": "vicky@test.com",
+      "id": 7
+    },
+    {
+      "name": "Ramveer Singh sweets",
+      "address": "delhi dwarka sector 7",
+      "email": "ram@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "test2",
+      "address": "test2",
+      "email": "test2@test.com",
+      "id": 10
+    },
+    {
+      "name": "aaa",
+      "address": "aaa delhi",
+      "email": "aaa@test.com",
+      "id": 12
+    },
+    {
+      "name": "ram sweets corner",
+      "address": "Dwarka Sector-1 Delhi",
+      "email": "ram@test.com",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "name": "rajkumar",
+      "email": "rajkumar@test.com",
+      "password": "rajkumar@#12345",
+      "id": 1
+    },
+    {
+      "name": "pramod",
+      "email": "pramod12@test.com",
+      "password": "pramod@#12345",
+      "id": 2
+    },
+    {
+      "name": "Manoj kumar",
+      "email": "manoj@test.com",
+      "password": "manoj@#123",
+      "id": 3
+    },
+    {
+      "name": null,
+      "email": null,
+      "password": null,
+      "id": 4
+    },
+    {
+      "name": "vicky",
+      "email": "vicky@test.com",
+      "password": "vicky@#123",
+      "id": 5
+    },
+    {
+      "name": "abc",
+      "email": "abc@test.com",
+      "password": "abc123",
+      "id": 6
+    },
+    {
+      "name": "ram",
+      "email": "ram@gmail.com",
+      "password": "ram123",
+      "id": 7
+    },
+    {
+      "name": "nidhi",
+      "email": "nidhi@test.com",
+      "password": "nidhi12345",
+      "id": 8
+    }
+  ]
+}

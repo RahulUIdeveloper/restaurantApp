@@ -1,0 +1,25 @@
+<h1> Welcome To Login </h1>
+
+<!-- <div *ngIf="alert" class="alert bg-success alert-dismissible fade show text-white" role="alert">
+  <strong>New User Successfully</strong> Created!
+  <button (click)="closeAlert()" type="button" class="close bg-success border-0 text-white  float-end" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div> -->
+
+<form [formGroup]="loginnew" (ngSubmit)="loginuser()">
+   
+  
+    <div class="form-group">
+        <label><strong>Email</strong></label>
+        <input type="text" class="form-control" formControlName="email" placeholder="Enter Email">
+      </div>
+      <br>
+      <div class="form-group">
+        <label><strong>Password</strong></label>
+        <input type="password" class="form-control" formControlName="password" placeholder="Enter Password">
+      </div>
+  <br>
+   <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>

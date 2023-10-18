@@ -1,0 +1,28 @@
+
+<h1> Add New Restaurant </h1>
+
+<div *ngIf="alert" class="alert bg-success alert-dismissible fade show text-white" role="alert">
+  <strong>Data Successfully</strong> Saved!
+  <button (click)="closeAlert()" type="button" class="close bg-success border-0 text-white  float-end" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<form [formGroup]="addResto" (ngSubmit)="collectResto()">
+    <div class="form-group">
+      <label><strong>Name</strong></label>
+      <input type="text" class="form-control" formControlName="name" placeholder="Enter Name">
+    </div>
+    <br>
+    <div class="form-group">
+      <label><strong>Address</strong></label>
+      <input type="text" class="form-control" formControlName="address" placeholder="Enter Address">
+    </div>
+<br>
+    <div class="form-group">
+        <label><strong>Email</strong></label>
+        <input type="text" class="form-control" formControlName="email" placeholder="Enter Email">
+      </div>
+   <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
